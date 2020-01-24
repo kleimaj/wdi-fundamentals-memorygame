@@ -1,3 +1,12 @@
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
 h1 {
     font-family: "Raleway", sans-serif;
     font-size: 45px;
@@ -63,6 +72,35 @@ footer{
 }
 footer p{
     font-family: "Raleway",sans-serif; 
+}
+button{
+    font-family: "Raleway",sans-serif;
+    color: white;
+    font-size: 18px;
+    letter-spacing: .08em;
+    padding: 15px;
+    border: 2px solid;
+    border-color: #00A6B3;
+    background-color: #00A6B3;
+}
+button:hover{
+    background-color: white;
+    color:black;
+    box-shadow: 5px 10px #00A6B3;
+    cursor: pointer;
+}
+button:active{
+    background-color: #00A6B3;
+    color: white;
+    border-color: white;
+
+}
+button:focus {outline:0;}
+#gameboard img{
+    padding: 15px;
+}
+#gameboard:active{
+    cursor: pointer;
 }
 .copyright{
 float:left
